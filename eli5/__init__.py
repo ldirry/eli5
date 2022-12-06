@@ -87,12 +87,3 @@ try:
 except ImportError:
     # catboost is not available
     pass
-
-
-try:
-    from .keras import (
-        explain_prediction_keras
-    )
-except ImportError:
-    # keras is not available
-    pass
